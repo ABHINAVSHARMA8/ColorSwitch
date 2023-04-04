@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #fff5c0;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <Button layoutX="234.0" layoutY="67.0" mnemonicParsing="false" onAction="#loadgame1" prefHeight="39.0" prefWidth="126.0" text="Game 1" />
+      <Button layoutX="237.0" layoutY="143.0" mnemonicParsing="false" onAction="#loadgame2" prefHeight="39.0" prefWidth="126.0" text="Game 2" />
+      <Button layoutX="237.0" layoutY="213.0" mnemonicParsing="false" onAction="#loadgame3" prefHeight="39.0" prefWidth="126.0" text="Game 3" />
+      <Button layoutX="237.0" layoutY="281.0" mnemonicParsing="false" onAction="#loadgame4" prefHeight="39.0" prefWidth="126.0" text="Game  4" />
+      <Button layoutX="234.0" layoutY="352.0" mnemonicParsing="false" onAction="#loadgame5" prefHeight="39.0" prefWidth="126.0" text="Game 5" />
+      <Button layoutX="199.0" layoutY="475.0" mnemonicParsing="false" onAction="#play_load_game" prefHeight="57.0" prefWidth="203.0" text="Proceed" />
+   </children>
+</AnchorPane>

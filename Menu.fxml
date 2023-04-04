@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #6ebfb5;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <ImageView fitHeight="602.0" fitWidth="600.0" pickOnBounds="false" preserveRatio="false">
+         <image>
+            <Image url="@../../../../../Downloads/menu2.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="199.0" layoutY="445.0" mnemonicParsing="false" onAction="#back_Menu" prefHeight="49.0" prefWidth="172.0" style="-fx-background-radius: 8; -fx-font-weight: bold; -fx-background-color: #ecebe9,        rgba(0,0,0,0.05),        linear-gradient(#dcca8a, #c7a740),        linear-gradient(#f9f2d6 0%, #f4e5bc 20%, #e6c75d 80%, #e2c045 100%),        linear-gradient(#f6ebbe, #e6c34d);" text="Back" />
+      <Button layoutX="196.0" layoutY="321.0" mnemonicParsing="false" onAction="#load" prefHeight="58.0" prefWidth="178.0" style="-fx-background-radius: 8; -fx-font-weight: bold; -fx-background-color: #ecebe9,        rgba(0,0,0,0.05),        linear-gradient(#dcca8a, #c7a740),        linear-gradient(#f9f2d6 0%, #f4e5bc 20%, #e6c75d 80%, #e2c045 100%),        linear-gradient(#f6ebbe, #e6c34d);" text="Load game" />
+      <Button layoutX="192.0" layoutY="223.0" mnemonicParsing="false" onAction="#view_high_score" prefHeight="58.0" prefWidth="186.0" style="-fx-background-radius: 8; -fx-font-weight: bold; -fx-background-color: #ecebe9,        rgba(0,0,0,0.05),        linear-gradient(#dcca8a, #c7a740),        linear-gradient(#f9f2d6 0%, #f4e5bc 20%, #e6c75d 80%, #e2c045 100%),        linear-gradient(#f6ebbe, #e6c34d);" text="View High Score" />
+      <Button layoutX="199.0" layoutY="119.0" mnemonicParsing="false" onAction="#play" prefHeight="58.0" prefWidth="178.0" style="-fx-background-radius: 8; -fx-font-weight: bold; -fx-background-color: #ecebe9,        rgba(0,0,0,0.05),        linear-gradient(#dcca8a, #c7a740),        linear-gradient(#f9f2d6 0%, #f4e5bc 20%, #e6c75d 80%, #e2c045 100%),        linear-gradient(#f6ebbe, #e6c34d);" text="Play" />
+   </children>
+</AnchorPane>

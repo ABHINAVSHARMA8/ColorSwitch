@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <Circle fx:id="c1_loading" fill="#1f93ff00" layoutX="232.0" layoutY="272.0" radius="18.0" stroke="#1a31da" strokeType="INSIDE" strokeWidth="10.0" />
+      <Circle fx:id="c2_loading" fill="#1f93ff00" layoutX="289.0" layoutY="272.0" radius="18.0" stroke="#c5e800" strokeType="INSIDE" strokeWidth="10.0" />
+      <Circle fx:id="c3_loading" fill="#1f93ff00" layoutX="356.0" layoutY="272.0" radius="18.0" stroke="#d91a1a" strokeType="INSIDE" strokeWidth="10.0" />
+      <Label layoutX="1.0" layoutY="4.0" prefHeight="183.0" prefWidth="580.0" style="-fx-font-size: 100px;" text="Loading...." textAlignment="CENTER" textFill="#05b4f0" />
+      <Button layoutX="240.0" layoutY="450.0" mnemonicParsing="false" onAction="#click_to_play" prefHeight="51.0" prefWidth="126.0" text="Click to Play!" />
+   </children>
+</AnchorPane>
